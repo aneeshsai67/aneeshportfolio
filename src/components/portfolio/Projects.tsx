@@ -5,31 +5,30 @@ import { TrendingUp, GraduationCap } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Crop Prediction Based on Agricultural Environment",
+      title: "SkillSync – Real-Time Skill-Sharing Platform",
       icon: <TrendingUp className="w-6 h-6" />,
-      description: "Implemented crop prediction in agriculture, which relies on soil and environmental conditions such as rainfall, humidity, and temperature.",
+      description: "Built a skill-sharing platform with comprehensive REST APIs for scheduling, bookings, reviews, and user management, serving real users in beta.",
       achievements: [
-        "The objective was to predict the variety of crops that would yield the best based on the Irrigational states.",
-        "Introduced Voting classifiers and Gradient boosting as two new algorithms to enhance the existing technique.",
-        "Achieved a model accuracy of 98.77% by training with provided datasets and incorporating the given values.",
-        "The model was built, shaped, and framed to accurately predict the required crop species based on circumstantial conditions of irrigational ports."
+        "Built a skill-sharing platform with 12+ REST APIs for scheduling, bookings, reviews, and user management, serving 50+ beta users.",
+        "Optimized PostgreSQL + Redis caching, cutting dashboard load time by 50% and boosting endpoint speed by 60%.",
+        "Integrated JWT, Google OAuth 2.0, and Calendar API, raising session completion rates by 65%.",
+        "Implemented real-time notifications and seamless user experience with modern web technologies."
       ],
-      tags: ["Machine Learning", "Python", "Data Science", "Agriculture", "Gradient Boosting", "Voting Classifiers"],
-      accuracy: "98.77%"
+      tags: ["REST APIs", "PostgreSQL", "Redis", "JWT", "OAuth 2.0", "Calendar API", "Real-time"],
+      metrics: "50+ Users, 60% Speed Boost"
     },
     {
-      title: "Students Performance Analysis And Prediction Using Linear Regression",
+      title: "Freelance Forge – Full Stack Freelance Platform",
       icon: <GraduationCap className="w-6 h-6" />,
-      description: "Identified relevant attributes such as study time, health status, and previous failures from a dataset comprising 33 features to forecast student final grades.",
+      description: "Built a comprehensive MERN-based marketplace with authentication, role-based access, and real-time communication features.",
       achievements: [
-        "Extracted pertinent features to enhance model accuracy.",
-        "Emphasized variables crucial for predicting student performance.",
-        "Developed and trained a linear regression model utilizing the selected attributes, achieving a highest accuracy of 96.47% during testing.",
-        "Employed techniques to optimize model performance.",
-        "Validated model accuracy through rigorous testing procedures."
+        "Built a MERN-based marketplace with JWT auth, role-based access, and real-time chat via Socket.io.",
+        "Deployed on AWS EC2 with Docker & Jenkins CI/CD, integrated Stripe payments, and managed media with Cloudinary.",
+        "Designed a responsive React UI and coordinated Agile sprints using Jira/Git for smooth Dev/QA collaboration.",
+        "Implemented secure payment processing and file management for freelance workflows."
       ],
-      tags: ["Linear Regression", "Data Analysis", "Python", "Feature Engineering", "Performance Prediction"],
-      accuracy: "96.47%"
+      tags: ["MERN Stack", "JWT", "Socket.io", "AWS EC2", "Docker", "Jenkins", "Stripe", "Cloudinary"],
+      metrics: "Full CI/CD Pipeline"
     }
   ];
 
@@ -38,10 +37,10 @@ const Projects = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Academic Projects
+            Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground">
-            Machine learning and data science projects with high-impact results
+            Full-stack applications with real-world impact and scalable architecture
           </p>
         </div>
         
@@ -63,11 +62,11 @@ const Projects = () => {
                     <p className="text-muted-foreground leading-relaxed mb-4">
                       {project.description}
                     </p>
-                    <div className="flex items-center gap-4 mb-4">
-                      <Badge variant="default" className="bg-primary/20 text-primary hover:bg-primary hover:text-primary-foreground">
-                        Accuracy: {project.accuracy}
-                      </Badge>
-                    </div>
+                     <div className="flex items-center gap-4 mb-4">
+                       <Badge variant="default" className="bg-primary/20 text-primary hover:bg-primary hover:text-primary-foreground">
+                         {project.metrics}
+                       </Badge>
+                     </div>
                   </div>
                 </div>
               </CardHeader>

@@ -4,48 +4,44 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Front-End Technologies",
-      skills: ["HTML5", "CSS3", "Bootstrap", "UI Material", "JavaScript", "TypeScript", "React JS", "React Native"]
+      title: "Front-End",
+      skills: ["React.js", "Next.js", "Angular", "JavaScript (ES6+)", "TypeScript", "Redux", "React Hooks", "Material UI", "Bootstrap", "HTML5", "CSS3"]
     },
     {
-      title: "Back-End Technologies", 
-      skills: ["Python", "Java", "Spring Framework", "Node.js"]
-    },
-    {
-      title: "IDEs",
-      skills: ["Cursor", "Windsurf", "Visual Studio Code", "IntelliJ IDEA", "Eclipse", "Maven", "Gradle", "NetBeans"]
-    },
-    {
-      title: "Web Services",
-      skills: ["RESTful", "SOAP", "GraphQL"]
+      title: "Back-End & APIs", 
+      skills: ["Python", "Flask", "FastAPI", "Django", "Java", "Spring Boot", "Spring MVC", "Hibernate", "JSP", "Servlets", "Node.js", "Express.js", "REST APIs"]
     },
     {
       title: "Databases",
-      skills: ["SQL", "Mongo DB (NoSQL)", "PostgreSQL", "MySQL", "Oracle", "DynamoDB"]
+      skills: ["SQL", "PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Oracle", "Query Optimization", "Stored Procedures"]
     },
     {
-      title: "CI/CD & Tools",
-      skills: ["Jenkins", "Code Ship", "GitHub Actions"]
+      title: "Machine Learning & AI",
+      skills: ["NumPy", "Scikit-learn", "TensorFlow", "Keras", "NLP", "GenAI", "OpenAI", "LangChain", "Predictive Analytics"]
     },
     {
-      title: "Testing Tools",
-      skills: ["JUnit", "Mockito", "React Testing Library", "Jest"]
+      title: "Cloud Platforms",
+      skills: ["AWS EC2", "AWS S3", "AWS RDS", "AWS Lambda", "API Gateway", "Redshift", "CloudWatch", "Azure App Services", "Azure Functions", "Azure Blob Storage", "GCP"]
     },
     {
-      title: "Cloud & Deployment", 
-      skills: ["AWS", "Docker", "AWS LAMBDA", "Kubernetes"]
+      title: "DevOps & CI/CD",
+      skills: ["Docker", "Kubernetes (EKS)", "Jenkins", "GitHub Actions", "GitLab", "Maven", "Gradle", "CodeShip"]
     },
     {
-      title: "Web Server",
-      skills: ["Apache Tomcat", "WebLogic"]
+      title: "Testing & QA",
+      skills: ["PyTest", "unittest", "JUnit", "Mockito", "Jest", "Cypress", "React Testing Library", "Postman", "Swagger OpenAPI", "OAuth 2.0"]
+    },
+    {
+      title: "Monitoring & Observability", 
+      skills: ["New Relic", "Prometheus", "AWS CloudWatch"]
+    },
+    {
+      title: "Version Control & Collaboration",
+      skills: ["Git", "GitHub", "Bitbucket", "SVN", "Jira", "Agile/Scrum"]
     },
     {
       title: "Other",
-      skills: ["Agile", "Jira", "SVN", "Ant", "Git", "Scrum", "GitHub", "Kubernetes", "Bitbucket", "Swagger Open API", "LINUX", "PostgreSQL"]
-    },
-    {
-      title: "Operating Systems",
-      skills: ["Windows", "LINUX", "Mac OS"]
+      skills: ["API Integration", "ETL Workflows", "Data Pipelines", "Secure Coding Practices", "Performance Optimization", "Automation Scripting"]
     }
   ];
 

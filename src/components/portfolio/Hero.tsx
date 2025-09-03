@@ -31,9 +31,10 @@ const Hero = () => {
         
         <div className="max-w-3xl mx-auto mb-12">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Java Full Stack Developer with hands-on experience in designing, developing, and deploying applications.
-            Proficient in Java, SQL, Spring Framework, Python, and various front-end technologies like React JS and Angular.
-            Skilled in database management with a proven track record of working with relational databases and NoSQL databases.
+            Full Stack Developer with 3 years of experience in Java (Spring Boot, Hibernate, JPA, Spring MVC), SQL, and MongoDB, delivering
+            scalable applications across enterprise and cloud platforms. Proficient in RESTful/GraphQL APIs, OAuth 2.0, JWT, and GenAI
+            integration (OpenAI APIs). Skilled in AWS (Lambda, API Gateway, S3, EC2), Azure (Blob Storage, Functions, App Services),
+            Docker, Kubernetes (EKS), and CI/CD automation with strong expertise in monitoring and ML feature integration.
           </p>
         </div>
         

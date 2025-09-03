@@ -2,6 +2,7 @@ import Hero from "@/components/portfolio/Hero";
 import Skills from "@/components/portfolio/Skills";
 import Experience from "@/components/portfolio/Experience";
 import Projects from "@/components/portfolio/Projects";
+import Publications from "@/components/portfolio/Publications";
 import Education from "@/components/portfolio/Education";
 import Contact from "@/components/portfolio/Contact";
 import DotCursor from "@/components/ui/cursor";
@@ -14,6 +15,7 @@ const Index = () => {
       <Skills />
       <Experience />
       <Projects />
+      <Publications />
       <Education />
       <Contact />
     </div>

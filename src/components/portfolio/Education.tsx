@@ -5,7 +5,7 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
+      degree: "Master of Science in Computer Science (GPA: 3.8/4.0)",
       institution: "Pace University",
       location: "New York, USA",
       icon: <GraduationCap className="w-6 h-6" />
