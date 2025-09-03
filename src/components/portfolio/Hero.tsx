@@ -24,7 +24,7 @@ const Hero = () => {
             </Badge>
             <Badge variant="secondary" className="flex items-center gap-2 px-4 py-2">
               <Mail className="w-4 h-4" />
-              aneeshsai67@gmail.com
+              aneeshsai673@gmail.com
             </Badge>
           </div>
         </div>
@@ -39,9 +39,11 @@ const Hero = () => {
         </div>
         
         <div className="flex flex-wrap justify-center gap-4">
-          <Button variant="hero" size="lg" className="group">
-            <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-            Contact Me
+          <Button variant="hero" size="lg" className="group" asChild>
+            <a href="mailto:aneeshsai673@gmail.com">
+              <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+              Contact Me
+            </a>
           </Button>
           <Button variant="outline" size="lg" className="group" asChild>
             <a href="https://www.linkedin.com/in/sai-aneesh-palla-683881269/" target="_blank" rel="noopener noreferrer">

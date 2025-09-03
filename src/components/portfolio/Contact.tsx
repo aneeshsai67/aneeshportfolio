@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "aneeshsai67@gmail.com",
-      href: "mailto:aneeshsai67@gmail.com"
+      value: "aneeshsai673@gmail.com",
+      href: "mailto:aneeshsai673@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -75,13 +75,17 @@ const Contact = () => {
         
         <div className="text-center">
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-            <Button variant="hero" size="lg" className="group">
-              <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              Send Message
+            <Button variant="hero" size="lg" className="group" asChild>
+              <a href="mailto:aneeshsai673@gmail.com">
+                <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                Send Message
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="group">
-              <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              Download Resume
+            <Button variant="outline" size="lg" className="group" asChild>
+              <a href="/resume.pdf" download="Sai_Aneesh_Palla_Resume.pdf">
+                <Download className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                Download Resume
+              </a>
             </Button>
           </div>
         </div>
